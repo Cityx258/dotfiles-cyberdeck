@@ -1,0 +1,24 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 28,
+    "margin-top": 5,
+    "margin-left": 10,
+    "margin-right": 10,
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["cpu", "memory", "battery"],
+
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "persistent-workspaces": {
+            "*": [1, 2, 3, 4, 5]
+        }
+    },
+    "clock": {
+        "format": "{:%H:%M}"
+    },
+    "cpu": { "format": "CPU:{usage}%" },
+    "memory": { "format": "MEM:{percentage}%" },
+    "battery": { "format": "PWR:{capacity}%" }
+}

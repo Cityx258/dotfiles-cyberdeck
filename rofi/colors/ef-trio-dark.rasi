@@ -1,0 +1,9 @@
+* {
+    background:     #0a0a0a; /* Pure Black - main background */
+    background-alt: #1a1a1a; /* Deep Grey - secondary background */
+    foreground:     #888888; /* Dim Grey - standard text */
+    selected:       #a020f0; /* Purple - active selection */
+    selected-fg:    #ffffff; /* White - text on selection for high contrast */
+    active:         #cf9fff; /* Light Purple - used for prompts/matching letters */
+    urgent:         #ff0055; /* Cyber Red - for warnings */
+}

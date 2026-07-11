@@ -1,0 +1,77 @@
+# --- CYBERDECK MINIMALIST PURPLE ---
+# Matches rofi (colors/ef-trio-dark.rasi), kitty.conf, and hypr/appearance.conf
+
+[global]
+    follow = mouse
+
+    width = 320
+    height = (0, 200)
+    origin = top-right
+    offset = (12, 40)
+    scale = 0
+    notification_limit = 5
+
+    progress_bar = true
+    progress_bar_height = 8
+    progress_bar_frame_width = 1
+    progress_bar_min_width = 150
+    progress_bar_max_width = 280
+    progress_bar_corner_radius = 0
+    icon_corner_radius = 0
+
+    indicate_hidden = yes
+    transparency = 0
+    separator_height = 2
+    padding = 12
+    horizontal_padding = 12
+    frame_width = 2
+    frame_color = "#a020f0"
+    gap_size = 4
+    separator_color = frame
+    sort = yes
+
+    font = JetBrainsMono Nerd Font 10
+    line_height = 2
+    markup = full
+    format = "<b><span foreground='#cf9fff'>%s</span></b>\n%b"
+    alignment = left
+    vertical_alignment = center
+    show_age_threshold = 60
+    ellipsize = end
+    ignore_newline = no
+    stack_duplicates = true
+    hide_duplicate_count = false
+    show_indicators = no
+
+    # No icons - matches rofi's show-icons: false, keeps it text-only/minimal
+    icon_position = off
+
+    sticky_history = yes
+    history_length = 20
+
+    title = Dunst
+    class = Dunst
+    corner_radius = 0
+    corners = all
+
+    mouse_left_click = close_current
+    mouse_middle_click = do_action, close_current
+    mouse_right_click = close_all
+
+[urgency_low]
+    background = "#0a0a0a"
+    foreground = "#888888"
+    frame_color = "#1a1a1a"
+    timeout = 5
+
+[urgency_normal]
+    background = "#0a0a0a"
+    foreground = "#888888"
+    frame_color = "#a020f0"
+    timeout = 8
+
+[urgency_critical]
+    background = "#0a0a0a"
+    foreground = "#ffffff"
+    frame_color = "#ff0055"
+    timeout = 0
