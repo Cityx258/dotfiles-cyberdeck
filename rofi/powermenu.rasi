@@ -1,0 +1,11 @@
+@import "theme.rasi"
+
+/* Compact confirm list for shutdown/reboot/suspend/logout. */
+
+window {
+    width:              320px;
+}
+
+listview {
+    lines:              4;
+}

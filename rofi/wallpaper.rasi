@@ -1,0 +1,30 @@
+@import "theme.rasi"
+
+/* Compact grid of wallpaper thumbnails. Reuses colors from theme.rasi. */
+
+window {
+    width:              480px;
+}
+
+listview {
+    columns:            2;
+    lines:              2;
+    spacing:            10px;
+    flow:               horizontal;
+}
+
+element {
+    orientation:        vertical;
+    padding:            6px;
+    spacing:            6px;
+    children:           [ element-icon, element-text ];
+}
+
+element-icon {
+    size:               140px;
+    horizontal-align:   0.5;
+}
+
+element-text {
+    horizontal-align:   0.5;
+}

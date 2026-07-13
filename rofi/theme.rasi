@@ -1,0 +1,89 @@
+/* Shared popup theme for WallpaperSwapper.sh and PowerMenu.sh.
+ * Cyberdeck Minimalist Purple - matches colors/ef-trio-dark.rasi,
+ * kitty.conf, dunstrc and hypr/appearance.conf. */
+
+@import "colors/ef-trio-dark.rasi"
+
+* {
+    background-color:   transparent;
+    text-color:          @foreground;
+    font:                "JetBrainsMono Nerd Font 11";
+    border:              0;
+    margin:              0;
+    padding:             0;
+    spacing:             0;
+}
+
+window {
+    background-color:   @background;
+    border:              2px solid;
+    border-color:        @selected;
+    border-radius:       0px;
+    width:                480px;
+    padding:              12px;
+}
+
+mainbox {
+    background-color:   transparent;
+    children:             [ inputbar, listview ];
+    spacing:               10px;
+}
+
+inputbar {
+    background-color:   @background-alt;
+    padding:              10px 14px;
+    spacing:              10px;
+    children:              [ prompt, entry ];
+}
+
+prompt {
+    background-color:   transparent;
+    text-color:           @active;
+    font:                 "JetBrainsMono Nerd Font 13";
+}
+
+entry {
+    background-color:   transparent;
+    text-color:           @foreground;
+    placeholder:          "Search...";
+    placeholder-color:    @foreground;
+    cursor:               text;
+}
+
+listview {
+    background-color:   transparent;
+    columns:              1;
+    lines:                8;
+    spacing:              4px;
+    scrollbar:            false;
+}
+
+element {
+    background-color:   transparent;
+    border-radius:        0px;
+    padding:              8px 12px;
+    spacing:              10px;
+    children:              [ element-icon, element-text ];
+    orientation:           horizontal;
+}
+
+element selected {
+    background-color:   @background-alt;
+    border:               1px solid;
+    border-color:         @selected;
+}
+
+element-icon {
+    background-color:   transparent;
+    size:                 22px;
+}
+
+element-text {
+    background-color:   transparent;
+    text-color:           @foreground;
+    vertical-align:       0.5;
+}
+
+element-text selected {
+    text-color:           @selected-fg;
+}
