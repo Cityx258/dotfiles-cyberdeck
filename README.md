@@ -13,6 +13,10 @@ My Hyprland setup, running on a Raspberry Pi 5. Minimal, sharp-cornered, purple 
 <td><img src="screenshots/screenshot_20260723_200106.png" width="400"/><br/><sub>Kitty + Fastfetch</sub></td>
 <td><img src="screenshots/screenshot_20260723_200143.png" width="220"/><br/><sub>Cava visualizer, rotated display</sub></td>
 </tr>
+<tr>
+<td><img src="screenshots/screenshot_20260723_203001.png" width="400"/><br/><sub>Micro editing Python</sub></td>
+<td><img src="screenshots/screenshot_20260723_203010.png" width="220"/><br/><sub>Lazygit + pavucontrol, rotated display</sub></td>
+</tr>
 </table>
 
 ## Layout
