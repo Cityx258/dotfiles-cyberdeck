@@ -2,6 +2,19 @@
 
 My Hyprland setup, running on a Raspberry Pi 5. Minimal, sharp-cornered, purple accent — a "cyberdeck" look: thin borders, subtle blur, no shadows, dwindle layout.
 
+## Screenshots
+
+<table>
+<tr>
+<td><img src="screenshots/screenshot_20260723_200032.png" width="400"/><br/><sub>Desktop — wallpaper + Waybar</sub></td>
+<td><img src="screenshots/screenshot_20260723_200051.png" width="400"/><br/><sub>Waybar — workspaces, clock, CPU/memory</sub></td>
+</tr>
+<tr>
+<td><img src="screenshots/screenshot_20260723_200106.png" width="400"/><br/><sub>Kitty + Fastfetch</sub></td>
+<td><img src="screenshots/screenshot_20260723_200143.png" width="220"/><br/><sub>Cava visualizer, rotated display</sub></td>
+</tr>
+</table>
+
 ## Layout
 
 | Directory | Software | Notes |
