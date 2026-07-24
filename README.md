@@ -7,7 +7,6 @@ My Hyprland setup, running on a Raspberry Pi 5. Minimal, sharp-cornered, purple 
 <table>
 <tr>
 <td><img src="screenshots/screenshot_20260723_200032.png" width="400"/><br/><sub>Desktop — wallpaper + Waybar</sub></td>
-<td><img src="screenshots/screenshot_20260723_200051.png" width="400"/><br/><sub>Waybar — workspaces, clock, CPU/memory</sub></td>
 </tr>
 <tr>
 <td><img src="screenshots/screenshot_20260723_200106.png" width="400"/><br/><sub>Kitty + Fastfetch</sub></td>
